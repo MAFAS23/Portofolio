@@ -24,7 +24,7 @@ const projects: ProjectItem[] = [
     id: '3',
     title: 'Scraping Data',
     description: 'Automated data extraction pipeline converting web content into structured CSV files.',
-    image: 'https://picsum.photos/600/400?random=3',
+    image: 'https://github.com/MAFAS23/Portofolio/blob/main/public/image/scraping.png?raw=true',
     techStack: ['Python', 'Requests', 'BeautifulSoup', 'Pandas', 'Selenium'],
     githubUrl: 'https://github.com/MAFAS23/ScrapingCPNS',
     liveUrl: '#'

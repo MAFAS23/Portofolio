@@ -62,11 +62,11 @@ const AboutAndSkills: React.FC = () => {
 
             {/* Certificates */}
             <div className="mt-12 pt-8 border-t border-dark/20">
-              <p className="font-mono text-xs uppercase tracking-widest text-gray-500 mb-4">Certified By</p>
+              {/* <p className="font-mono text-xs uppercase tracking-widest text-gray-500 mb-4">Certified By</p>
               <div className="flex gap-6 items-center opacity-70 grayscale hover:grayscale-0 transition-all">
                 <div className="flex items-center gap-2 font-bold font-display text-xl"><i className="fa-brands fa-google text-2xl"></i> Google</div>
                 <div className="flex items-center gap-2 font-bold font-display text-xl"><i className="fa-brands fa-aws text-2xl"></i> AWS</div>
-              </div>
+              </div> */}
             </div>
           </div>
 
