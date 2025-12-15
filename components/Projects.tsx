@@ -5,36 +5,36 @@ const projects: ProjectItem[] = [
   {
     id: '1',
     title: 'Dashboard SIKeuda App',
-    description: 'A comprehensive analytics dashboard for online retailers with real-time data visualization.',
-    image: '/public/image/sikeuda.png',
-    techStack: ['React', 'D3.js', 'Firebase'],
+    description: 'A government mobile app designed to track and visualize Bandar Lampung\'s regional financial data in real-time.',
+    image: 'https://raw.githubusercontent.com/MAFAS23/Portofolio/refs/heads/main/public/image/sikeuda.png',
+    techStack: ['Kotlin', 'XML', 'PostgreSQL', 'Rest-API', 'Firebase'],
     githubUrl: '#',
-    liveUrl: '#'
+    liveUrl: 'https://drive.google.com/file/d/1Xpfg0TPJ6C3ij28kGkADAyCnE2FPML5u/view?usp=sharing'
   },
   {
     id: '2',
     title: 'Dashboard SIPD Aset App',
-    description: 'Mobile-first booking platform with integrated maps and payment processing.',
+    description: 'Mobile-based solution for tracking and visualizing regional government assets in real-time.',
     image: 'https://picsum.photos/600/400?random=2',
-    techStack: ['Next.js', 'Stripe', 'Mapbox'],
+    techStack: ['Kotlin', 'Compose', 'PostgreSQL', 'Rest-API', 'Firebase'],
     githubUrl: '#',
-    liveUrl: '#'
+    liveUrl: 'https://www.figma.com/proto/JAONznq8Iqkwjy8cNmcAp2/Dashboard-SIPD?page-id=0%3A1&node-id=10-9&p=f&viewport=399%2C412%2C0.29&t=WFJXvL2QRuv615HE-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=10%3A9'
   },
   {
     id: '3',
     title: 'Scraping Data',
     description: 'Real-time cryptocurrency tracking application using WebSockets.',
     image: 'https://picsum.photos/600/400?random=3',
-    techStack: ['Vue', 'Node.js', 'Socket.io'],
-    githubUrl: '#',
+    techStack: ['Python', 'Requests', 'BeautifulSoup', 'Pandas', 'Selenium'],
+    githubUrl: 'https://github.com/MAFAS23/ScrapingCPNS',
     liveUrl: '#'
   },
   {
     id: '4',
-    title: 'Healthcare CRM',
-    description: 'Patient management system compliant with medical data regulations.',
+    title: 'Coming Soon',
+    description: 'Coming Soon',
     image: 'https://picsum.photos/600/400?random=4',
-    techStack: ['TypeScript', 'PostgreSQL', 'Docker'],
+    techStack: [],
     githubUrl: '#',
     liveUrl: '#'
   }
@@ -67,7 +67,7 @@ const Projects: React.FC = () => {
                   <h3 className="font-display text-3xl uppercase leading-none">{project.title}</h3>
                   <div className="flex gap-3">
                     {project.githubUrl && (
-                      <a href={project.githubUrl} className="text-xl hover:text-maroon transition-colors" title="GitHub Code">
+                      <a href={project.githubUrl} className="text-xl hover:text-maroon transition-colors" title="Private Project">
                         <i className="fa-brands fa-github"></i>
                       </a>
                     )}

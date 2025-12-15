@@ -74,12 +74,13 @@ const Experience: React.FC = () => {
 
               <ul className="space-y-3">
                 {exp.achievements.map((item, idx) => (
-                  <li key={idx} className="font-sans text-gray-700 flex items-start">
-                    <span className="mr-3 mt-1.5 w-1.5 h-1.5 bg-dark rounded-full shrink-0"></span>
+                  <li key={idx} className="flex items-start font-sans text-gray-700">
+                    <span className="mr-3 mt-[0.6em] w-1.5 h-1.5 bg-dark rounded-full shrink-0" />
                     <span className="leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
+
             </div>
           ))}
         </div>
