@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
 
               {/* IMAGE */}
               <img
-                src="/components/image/3d_character.png"
+                src="public/image/photo_profile.png"
                 alt="Profile"
                 className="w-full h-full object-cover mix-blend-luminosity hover:mix-blend-normal transition-all duration-500 opacity-80"
               />

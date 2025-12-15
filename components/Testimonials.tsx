@@ -16,8 +16,8 @@ const Testimonials: React.FC = () => {
             What do clients <br /> say?
           </h2>
           <div className="hidden md:flex gap-4">
-             <button className="w-12 h-12 border border-dark rounded-full flex items-center justify-center hover:bg-dark hover:text-cream transition-colors"><i className="fa-solid fa-arrow-left"></i></button>
-             <button className="w-12 h-12 border border-dark rounded-full flex items-center justify-center hover:bg-dark hover:text-cream transition-colors"><i className="fa-solid fa-arrow-right"></i></button>
+            <button className="w-12 h-12 border border-dark rounded-full flex items-center justify-center hover:bg-dark hover:text-cream transition-colors"><i className="fa-solid fa-arrow-left"></i></button>
+            <button className="w-12 h-12 border border-dark rounded-full flex items-center justify-center hover:bg-dark hover:text-cream transition-colors"><i className="fa-solid fa-arrow-right"></i></button>
           </div>
         </div>
 

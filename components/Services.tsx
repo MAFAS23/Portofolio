@@ -13,7 +13,7 @@ const Services: React.FC = () => {
     <section className="py-20 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
         <h2 className="font-mono text-sm uppercase tracking-widest mb-12 text-gray-500">How I Solve Your Challenges</h2>
-        
+
         <div className="flex flex-col">
           {services.map((service) => (
             <div key={service.id} className="group flex flex-col md:flex-row items-start md:items-center py-12 border-t border-dark transition-colors hover:bg-white">

@@ -30,7 +30,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/Portofolio/', // 🔥 WAJIB (sesuai nama repo)
+    base: '/Portofolio/',
 
     plugins: [react()],
 

@@ -53,53 +53,53 @@ const Projects: React.FC = () => {
             <div key={project.id} className="group border-2 border-dark bg-white hover:shadow-[8px_8px_0px_0px_rgba(5,5,5,1)] transition-all duration-300">
               {/* Thumbnail */}
               <div className="aspect-video overflow-hidden border-b-2 border-dark relative">
-                 <div className="absolute inset-0 bg-maroon opacity-0 group-hover:opacity-20 transition-opacity z-10"></div>
-                 <img 
-                    src={project.image} 
-                    alt={project.title} 
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-105" 
-                 />
+                <div className="absolute inset-0 bg-maroon opacity-0 group-hover:opacity-20 transition-opacity z-10"></div>
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-105"
+                />
               </div>
 
               {/* Content */}
               <div className="p-6 md:p-8">
                 <div className="flex justify-between items-start mb-4">
-                    <h3 className="font-display text-3xl uppercase leading-none">{project.title}</h3>
-                    <div className="flex gap-3">
-                        {project.githubUrl && (
-                            <a href={project.githubUrl} className="text-xl hover:text-maroon transition-colors" title="GitHub Code">
-                                <i className="fa-brands fa-github"></i>
-                            </a>
-                        )}
-                        {project.liveUrl && (
-                            <a href={project.liveUrl} className="text-xl hover:text-maroon transition-colors" title="Live Demo">
-                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                        )}
-                    </div>
+                  <h3 className="font-display text-3xl uppercase leading-none">{project.title}</h3>
+                  <div className="flex gap-3">
+                    {project.githubUrl && (
+                      <a href={project.githubUrl} className="text-xl hover:text-maroon transition-colors" title="GitHub Code">
+                        <i className="fa-brands fa-github"></i>
+                      </a>
+                    )}
+                    {project.liveUrl && (
+                      <a href={project.liveUrl} className="text-xl hover:text-maroon transition-colors" title="Live Demo">
+                        <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                    )}
+                  </div>
                 </div>
-                
+
                 <p className="font-sans text-gray-600 mb-6 line-clamp-2">
-                    {project.description}
+                  {project.description}
                 </p>
 
                 {/* Tech Chips */}
                 <div className="flex flex-wrap gap-2">
-                    {project.techStack.map((tech) => (
-                        <span key={tech} className="font-mono text-xs border border-gray-300 rounded px-2 py-1 bg-gray-50 text-gray-600">
-                            {tech}
-                        </span>
-                    ))}
+                  {project.techStack.map((tech) => (
+                    <span key={tech} className="font-mono text-xs border border-gray-300 rounded px-2 py-1 bg-gray-50 text-gray-600">
+                      {tech}
+                    </span>
+                  ))}
                 </div>
               </div>
             </div>
           ))}
         </div>
-        
+
         <div className="mt-16 text-center">
-             <a href="#" className="inline-block border-b-2 border-dark pb-1 font-mono text-sm uppercase tracking-widest hover:text-maroon hover:border-maroon transition-colors">
-                View GitHub Archive <i className="fa-solid fa-arrow-right ml-2"></i>
-             </a>
+          <a href="#" className="inline-block border-b-2 border-dark pb-1 font-mono text-sm uppercase tracking-widest hover:text-maroon hover:border-maroon transition-colors">
+            View GitHub Archive <i className="fa-solid fa-arrow-right ml-2"></i>
+          </a>
         </div>
       </div>
     </section>
