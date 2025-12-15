@@ -6,7 +6,7 @@ const projects: ProjectItem[] = [
     id: '1',
     title: 'Dashboard SIKeuda App',
     description: 'A comprehensive analytics dashboard for online retailers with real-time data visualization.',
-    image: 'https://picsum.photos/600/400?random=1',
+    image: '/public/image/sikeuda.png',
     techStack: ['React', 'D3.js', 'Firebase'],
     githubUrl: '#',
     liveUrl: '#'

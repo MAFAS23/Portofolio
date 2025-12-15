@@ -4,8 +4,8 @@ import { ExperienceItem } from '../types';
 const experiences: ExperienceItem[] = [
   {
     id: '1',
-    role: 'PT. Multi Bahana Informatika',
-    company: 'IT Consultant',
+    role: 'Java/Mobile Developer',
+    company: 'PT. Multi Bahana Informatika',
     period: '2024 - Present',
     achievements: [
       'Developed a high-performance Android application using Kotlin for real-time financial data visualization, ensuring seamless integration with a Java-based REST API backend.',
@@ -16,8 +16,8 @@ const experiences: ExperienceItem[] = [
   },
   {
     id: '2',
-    role: 'PT. GMF Aero Asia',
-    company: 'Aircraft Maintenance',
+    role: 'Intern Information System Analyst',
+    company: 'PT. GMF Aero Asia',
     period: 'Jul 2023 - Sep 2023',
     achievements: [
       'Successfully updated the IT project Blueprint, ensuring accurate and relevant documentation to support project needs.',
@@ -27,8 +27,8 @@ const experiences: ExperienceItem[] = [
   },
   {
     id: '3',
-    role: 'PT. Mega Central Finance',
-    company: 'Finance',
+    role: 'Intern Business Process Automation',
+    company: 'PT. Mega Central Finance',
     period: 'Dec 2022 - May 2023',
     achievements: [
       'Proficiently operated and managed KOFAX RPA automation systems to optimize operational efficiency.Responsibilities included ensuring the timely execution of automated tasks.',
@@ -66,11 +66,11 @@ const Experience: React.FC = () => {
               </div>
 
               <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-2">
-                <h3 className="font-display text-3xl md:text-4xl uppercase font-bold">{exp.role}</h3>
+                <h3 className="font-display text-3xl md:text-4xl uppercase font-bold">{exp.company}</h3>
                 <span className="font-mono text-sm text-gray-500 mt-1 md:mt-0">{exp.period}</span>
               </div>
 
-              <div className="font-display text-xl text-maroon mb-6">{exp.company}</div>
+              <div className="font-display text-xl text-maroon mb-6">{exp.role}</div>
 
               <ul className="space-y-3">
                 {exp.achievements.map((item, idx) => (
