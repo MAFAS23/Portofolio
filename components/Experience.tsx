@@ -4,34 +4,37 @@ import { ExperienceItem } from '../types';
 const experiences: ExperienceItem[] = [
   {
     id: '1',
-    role: 'Senior Frontend Engineer',
-    company: 'Tech Unicorn Indonesia',
-    period: '2021 - Present',
+    role: 'PT. Multi Bahana Informatika',
+    company: 'IT Consultant',
+    period: '2024 - Present',
     achievements: [
-      'Led the migration of legacy codebase to Next.js, improving load time by 40%.',
-      'Mentored a team of 5 junior developers and established code quality standards.',
-      'Implemented a comprehensive design system used across 3 major products.'
+      'Developed a high-performance Android application using Kotlin for real-time financial data visualization, ensuring seamless integration with a Java-based REST API backend.',
+      'Contributed to the full-stack development of a Regional Asset Management (Barang Milik Daerah/BMD) system, implementing robust backend logic using Java and responsive frontend components with PrimeFaces.',
+      'Built and deployed RESTful APIs to facilitate secure and efficient data synchronization between the server and client-side applications.',
+      'Designed intuitive UI/UX layouts and interactive prototypes using Figma for both mobile and web applications, translating requirements into user-friendly interfaces before implementation.',
     ]
   },
   {
     id: '2',
-    role: 'Full Stack Developer',
-    company: 'Digital Agency Asia',
-    period: '2019 - 2021',
+    role: 'PT. GMF Aero Asia',
+    company: 'Aircraft Maintenance',
+    period: 'Jul 2023 - Sep 2023',
     achievements: [
-      'Developed 15+ custom websites for high-profile clients in retail and banking.',
-      'Optimized database queries reducing server costs by 20%.',
-      'Integrated third-party payment gateways (Midtrans, Xendit).'
+      'Successfully updated the IT project Blueprint, ensuring accurate and relevant documentation to support project needs.',
+      'Contributed to the enhancement of the PMO website\'s UI, improving user experience based on user feedback.',
+      'Acquired foundational knowledge in Moodle E-Learning development, adding valuable skills to my professional portfolio.',
     ]
   },
   {
     id: '3',
-    role: 'Junior Web Developer',
-    company: 'StartUp Indo',
-    period: '2018 - 2019',
+    role: 'PT. Mega Central Finance',
+    company: 'Finance',
+    period: 'Dec 2022 - May 2023',
     achievements: [
-      'Built responsive landing pages using React and SCSS.',
-      'Collaborated with UI/UX designers to implement pixel-perfect interfaces.'
+      'Proficiently operated and managed KOFAX RPA automation systems to optimize operational efficiency.Responsibilities included ensuring the timely execution of automated tasks.',
+      'Delivered real - time monitoring for cloud systems and provided accurate reports, contributing to enhanced decision- making.',
+      'Compiled monthly project outcome reports that provided in -depth insights into project progress, which were utilized by management for strategic decision - making.',
+      'Assisted in troubleshooting and resolving issues within the Tracker application, facilitating seamless problem - solving interactions between users and helpers.This involved promptly addressing user requests for assistance, coordinating support efforts, and ensuring timely resolution of problems',
     ]
   },
 ];

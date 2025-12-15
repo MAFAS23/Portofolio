@@ -4,7 +4,7 @@ import { ProjectItem } from '../types';
 const projects: ProjectItem[] = [
   {
     id: '1',
-    title: 'E-Commerce Dashboard',
+    title: 'Dashboard SIKeuda App',
     description: 'A comprehensive analytics dashboard for online retailers with real-time data visualization.',
     image: 'https://picsum.photos/600/400?random=1',
     techStack: ['React', 'D3.js', 'Firebase'],
@@ -13,7 +13,7 @@ const projects: ProjectItem[] = [
   },
   {
     id: '2',
-    title: 'Travel Booking App',
+    title: 'Dashboard SIPD Aset App',
     description: 'Mobile-first booking platform with integrated maps and payment processing.',
     image: 'https://picsum.photos/600/400?random=2',
     techStack: ['Next.js', 'Stripe', 'Mapbox'],
@@ -22,7 +22,7 @@ const projects: ProjectItem[] = [
   },
   {
     id: '3',
-    title: 'Crypto Portfolio Tracker',
+    title: 'Scraping Data',
     description: 'Real-time cryptocurrency tracking application using WebSockets.',
     image: 'https://picsum.photos/600/400?random=3',
     techStack: ['Vue', 'Node.js', 'Socket.io'],
