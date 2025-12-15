@@ -15,7 +15,7 @@ const projects: ProjectItem[] = [
     id: '2',
     title: 'Dashboard SIPD Aset App',
     description: 'Mobile-based solution for tracking and visualizing regional government assets in real-time.',
-    image: 'https://picsum.photos/600/400?random=2',
+    image: 'https://github.com/MAFAS23/Portofolio/blob/main/public/image/sipd.png?raw=true',
     techStack: ['Kotlin', 'Compose', 'PostgreSQL', 'Rest-API', 'Firebase'],
     githubUrl: '#',
     liveUrl: 'https://www.figma.com/proto/JAONznq8Iqkwjy8cNmcAp2/Dashboard-SIPD?page-id=0%3A1&node-id=10-9&p=f&viewport=399%2C412%2C0.29&t=WFJXvL2QRuv615HE-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=10%3A9'
@@ -23,7 +23,7 @@ const projects: ProjectItem[] = [
   {
     id: '3',
     title: 'Scraping Data',
-    description: 'Real-time cryptocurrency tracking application using WebSockets.',
+    description: 'Automated data extraction pipeline converting web content into structured CSV files.',
     image: 'https://picsum.photos/600/400?random=3',
     techStack: ['Python', 'Requests', 'BeautifulSoup', 'Pandas', 'Selenium'],
     githubUrl: 'https://github.com/MAFAS23/ScrapingCPNS',
