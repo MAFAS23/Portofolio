@@ -97,7 +97,7 @@ const Projects: React.FC = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <a href="#" className="inline-block border-b-2 border-dark pb-1 font-mono text-sm uppercase tracking-widest hover:text-maroon hover:border-maroon transition-colors">
+          <a href="https://github.com/mafas23" className="inline-block border-b-2 border-dark pb-1 font-mono text-sm uppercase tracking-widest hover:text-maroon hover:border-maroon transition-colors">
             View GitHub Archive <i className="fa-solid fa-arrow-right ml-2"></i>
           </a>
         </div>
