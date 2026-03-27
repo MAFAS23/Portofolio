@@ -4,7 +4,7 @@ import { SkillGroup } from '../types';
 const skills: SkillGroup[] = [
   { category: 'Frontend', items: ['Compose', 'XML', 'Swift', 'Flutter', 'Dart', 'HTML', 'CSS', 'JavaScript', 'TypeScript'] },
   { category: 'Backend', items: ['Java', 'PostgreSQL', 'Kotlin', 'Python', 'REST API'] },
-  { category: 'Tools', items: ['Git/GitHub', 'Firebase', 'Selenium', 'Katalon', 'Figma', 'Jaspersoft', 'Claude', 'Bjir'] },
+  { category: 'Tools', items: ['Firebase', 'Selenium', 'Katalon', 'Figma', 'Jaspersoft', 'Claude', 'Bjir'] },
 ];
 
 // Helper function to get DevIcon URL for each skill
@@ -25,7 +25,7 @@ const getIconUrl = (skill: string): string => {
     'Python': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
 
     'REST API': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg',
-    'Git/GitHub': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg',
+    // 'Git/GitHub': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg',
     'Docker': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg',
     'Figma': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg',
     'Bjir': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg',
