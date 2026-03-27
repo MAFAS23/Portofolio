@@ -38,7 +38,10 @@ const Hero: React.FC = () => {
               <button className="border-2 border-dark text-dark font-display text-xl px-8 py-4 uppercase tracking-wider hover:bg-dark hover:text-cream transition-colors">
                 Resume <i className="fa-solid fa-download ml-2 text-sm"></i>
               </button>
-              <button className="border-2 border-dark text-dark font-display text-xl px-8 py-4 uppercase tracking-wider hover:bg-dark hover:text-cream transition-colors">
+              <button
+                onClick={() => window.open("https://www.upwork.com/freelancers/~01fe7c9003a89d6f93?mp_source=share", "_blank")}
+                className="border-2 border-dark text-dark font-display text-xl px-8 py-4 uppercase tracking-wider hover:bg-dark hover:text-cream transition-colors"
+              >
                 Upwork <i className="fa-brands fa-upwork ml-2 text-sm"></i>
               </button>
             </div>
