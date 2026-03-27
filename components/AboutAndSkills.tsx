@@ -4,7 +4,7 @@ import { SkillGroup } from '../types';
 const skills: SkillGroup[] = [
   { category: 'Frontend', items: ['Compose', 'XML', 'Swift', 'Flutter', 'Dart', 'HTML', 'CSS', 'JavaScript', 'TypeScript'] },
   { category: 'Backend', items: ['Java', 'PostgreSQL', 'Kotlin', 'Python', 'REST API'] },
-  { category: 'Tools', items: ['Git/GitHub', 'Firebase', 'Selenium', 'Katalon', 'Figma', 'Jaspersoft', 'Claude', 'Bjir'] },
+  { category: 'Tools', items: ['Git/GitHub', 'Firebase', 'Selenium', 'Katalon', 'Figma', 'Jaspersoft', 'Claude', 'AntiGravity', 'Gemini', 'ChatGPT', 'OpenRouter'] },
 ];
 
 // Helper function to get DevIcon URL for each skill
@@ -28,9 +28,15 @@ const getIconUrl = (skill: string): string => {
     'Git/GitHub': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg',
     'Docker': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg',
     'Figma': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg',
-    'Bjir': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg',
+
     'JasperSoft': 'https://logodix.com/logo/1745693.png',
+    'AntiGravity': 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/antigravity-color.png',
     'Claude': 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/claude-color.png',
+    'Gemini': 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/gemini-color.png',
+    'ChatGPT': 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/openai.png',
+    'OpenRouter': 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/openrouter.png',
+
+
     'Firebase': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg',
     'Selenium': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/selenium/selenium-original.svg',
     'Katalon': 'https://upload.wikimedia.org/wikipedia/commons/e/e4/Katalon-logo-vector.svg',
