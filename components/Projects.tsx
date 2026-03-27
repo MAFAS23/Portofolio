@@ -5,7 +5,7 @@ const projects: ProjectItem[] = [
   {
     id: '1',
     title: 'Dashboard SIKeuda App',
-    description: 'A government mobile app designed to track and visualize Bandar Lampung\'s regional financial data in real-time.',
+    description: 'A government mobile app designed to track and visualize Bandar Lampung\'s regional financial data in real-time. \n (private project)',
     image: 'https://raw.githubusercontent.com/MAFAS23/Portofolio/refs/heads/main/public/image/sikeuda.png',
     techStack: ['Kotlin', 'XML', 'PostgreSQL', 'Rest-API', 'Firebase'],
     githubUrl: '#',
@@ -14,7 +14,7 @@ const projects: ProjectItem[] = [
   {
     id: '2',
     title: 'Dashboard SIPD Aset App',
-    description: 'Mobile-based solution for tracking and visualizing regional government assets in real-time.',
+    description: 'Mobile-based solution for tracking and visualizing regional government assets in real-time. \n (private project)',
     image: 'https://github.com/MAFAS23/Portofolio/blob/main/public/image/sipd.png?raw=true',
     techStack: ['Kotlin', 'Compose', 'PostgreSQL', 'Rest-API', 'Firebase'],
     githubUrl: '#',
@@ -37,7 +37,17 @@ const projects: ProjectItem[] = [
     techStack: [],
     githubUrl: '#',
     liveUrl: '#'
+  },
+  {
+    id: '5',
+    title: 'Linguo Coach (on going)',
+    description: 'language Correction learning bot',
+    image: 'https://picsum.photos/600/400?random=4',
+    techStack: [],
+    githubUrl: '#',
+    liveUrl: '#'
   }
+
 ];
 
 const Projects: React.FC = () => {

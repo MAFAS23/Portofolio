@@ -6,7 +6,7 @@ const experiences: ExperienceItem[] = [
     id: '1',
     role: 'Java/Mobile Developer',
     company: 'PT. Multi Bahana Informatika',
-    period: '2024 - Present',
+    period: 'Jul 2024 - Present',
     achievements: [
       'Developed a high-performance Android application using Kotlin for real-time financial data visualization, ensuring seamless integration with a Java-based REST API backend.',
       'Contributed to the full-stack development of a Regional Asset Management (Barang Milik Daerah/BMD) system, implementing robust backend logic using Java and responsive frontend components with PrimeFaces.',
