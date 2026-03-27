@@ -4,7 +4,7 @@ import { SkillGroup } from '../types';
 const skills: SkillGroup[] = [
   { category: 'Frontend', items: ['Compose', 'XML', 'Swift', 'Flutter', 'Dart', 'HTML', 'CSS', 'JavaScript', 'TypeScript'] },
   { category: 'Backend', items: ['Java', 'PostgreSQL', 'Kotlin', 'Python', 'REST API'] },
-  { category: 'Tools', items: ['Git/GitHub', 'Firebase', 'Selenium', 'Katalon', 'Figma', 'Jaspersoft', 'Claude'] },
+  { category: 'Tools', items: ['Git/GitHub', 'Firebase', 'Selenium', 'Katalon', 'Figma', 'Jaspersoft', 'Claude', 'Bjir'] },
 ];
 
 // Helper function to get DevIcon URL for each skill
@@ -28,6 +28,7 @@ const getIconUrl = (skill: string): string => {
     'Git/GitHub': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg',
     'Docker': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg',
     'Figma': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg',
+    'Bjir': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg',
     'JasperSoft': 'https://logodix.com/logo/1745693.png',
     'Claude': 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/claude-color.png',
     'Firebase': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg',
