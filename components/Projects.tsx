@@ -45,7 +45,7 @@ const projects: ProjectItem[] = [
     image: 'https://picsum.photos/600/400?random=4',
     techStack: [],
     githubUrl: '#',
-    liveUrl: '#'
+    liveUrl: 'https://t.me/linguoCo_bot'
   }
 
 ];
